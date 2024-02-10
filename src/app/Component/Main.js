@@ -30,7 +30,7 @@ function Main() {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-[1.1rem]">
-            Hi, I'm Farooque Shaikh. I am FrontEnd Developer at Motion Identix.
+            Hi, Im Farooque Shaikh. I am FrontEnd Developer at Motion Identix.
             I spend my day working on web apps with Javascript, React.js, Redux, Redux-Thunk and Next.js.
           </p>
           <div>
