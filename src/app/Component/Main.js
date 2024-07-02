@@ -3,6 +3,7 @@ import React from 'react'
 import Link from "next/link";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import profile from '../../../public/Img/profiles.jpeg'
 
 
 function Main() {
@@ -30,7 +31,7 @@ function Main() {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-[1.1rem]">
-            Hi, Im Farooque Shaikh. I am FrontEnd Developer at Motion Identix.
+            Hi, Im Farooque Shaikh. I am FrontEnd Developer at QUANTIQUE METADATA Pvt.Ltd.
             I spend my day working on web apps with Javascript, React.js, Redux, Redux-Thunk and Next.js.
           </p>
           <div>
@@ -48,7 +49,7 @@ function Main() {
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/Img/Profile.jpg"
+              src={profile}
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
               width={350}
